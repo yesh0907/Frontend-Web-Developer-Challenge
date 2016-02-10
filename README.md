@@ -35,5 +35,4 @@ You'll need to develop a frontend interface for a food logging webapp where a us
 * Responsive and creative design, appropriateness of error messages, etc
 * Because we love people who have a passion for expanding their horizons, your background with frontend libraries do not matter so much provided you are able to demonstrate your learning ability!
 
-### Bonus Points
-* Use of Angular.js or React.js is a plus
+### Use React.js
