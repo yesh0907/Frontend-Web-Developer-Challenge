@@ -7,9 +7,9 @@ Welcome! We've been expecting you. Holmusk is a big data based high tech company
 
 If you're someone who bleeds code and aches to make a difference in the world, then you are at the right place. You will be part of a world‑class team working on the most exciting ground‑breaking technology in an inspiring and collaborative environment.
 
-## Basics
-
 ### Use React.js
+
+## Basics
 
 This is the Holmusk Frontend Web Developer challenge. The rules of the challenge are very simple and are as follows
 
