@@ -31,7 +31,7 @@ You'll need to develop a frontend interface for a food logging webapp where a us
 * Display the nutrition data per serving for each stored meal
 * Add option to delete meal or delete all with a confirmation box from the local storage
 * Sort meals alphabetically
-* Use custom CSS, no libraries (Prefered responsive design using Flex)
+* Use custom CSS, no libraries (Preferred responsive design using Flex)
 * With that said we wish you good luck and look forward to receiving your submission!
 
 ## Judging Criteria
