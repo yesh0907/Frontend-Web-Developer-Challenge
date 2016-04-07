@@ -9,6 +9,8 @@ If you're someone who bleeds code and aches to make a difference in the world, t
 
 ## Basics
 
+### Use React.js
+
 This is the Holmusk Frontend Web Developer challenge. The rules of the challenge are very simple and are as follows
 
 * You will be able to submit the challenge anytime you are ready provided the challenge is still open
