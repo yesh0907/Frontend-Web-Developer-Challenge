@@ -1,0 +1,270 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+table {
+	table-layout: fixed;
+	width: 550px;
+	margin-left: 20px;
+}
+
+.main {
+	display: inline-flex;
+}
+
+/* Navbar */
+.nav {
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+	background-color: #43ABC1;
+	height: 1200px;
+	width: 260px;
+}
+
+.padding {
+	margin-top: 10px;
+	padding-top: 20px;
+	margin-left: 30px;
+}
+
+.link {
+	padding-left: 20px;
+	color: #4F747F;
+}
+
+.active {
+	color: white;
+}
+
+.active-search {
+	padding: 20px;
+}
+
+.active-bookmarks {
+	padding: 20px;
+	margin-top: 26px;
+}
+
+.navicon {
+	visibility: hidden;
+	display: none;
+}
+
+/* Autocomplete */
+.react-autosuggest__container {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 2%;
+}
+
+.react-autosuggest__input {
+  width: 300px;
+  height: 45px;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  margin-left: 2%;
+}
+
+.react-autosuggest__input:focus {
+  outline: none;
+}
+
+.react-autosuggest__container--open .react-autosuggest__input {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+  position: absolute;
+  top: 51px;
+  width: 340px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 2;
+  margin-left: 2%;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--focused {
+  background-color: #ddd;
+}
+
+/* Table */
+.info {
+	margin-top: 20px;
+}
+
+.choice {
+	margin-left: 20px;
+	background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50px' height='50px'><polyline points='46.139,15.518 25.166,36.49 4.193,15.519'/></svg>");
+	background-color:#428bca;
+	background-repeat:no-repeat;
+	background-position: right 10px top 15px;
+	background-size: 16px 16px;
+	color:white;
+	padding: 12px;
+	padding-right: 30px;
+    width:auto;
+    font-family: sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-appearance: none;
+	border:0;
+	outline:0;
+	-webkit-transition:0.3s ease all;
+	-moz-transition:0.3s ease all;
+	-ms-transition:0.3s ease all;
+	-o-transition:0.3s ease all;
+	transition:0.3s ease all;
+}
+
+.item-name {
+	margin-left: 20px;
+}
+
+.item-serving-size {
+	margin-left: 20px;
+}
+
+/* Bookmark Button */
+.bookmark-btn {
+	margin-left: 20px;
+	margin-top: 10px;
+	-webkit-border-radius: 7;
+	-moz-border-radius: 7;
+	border-radius: 7px;
+	font-family: sans-serif;
+	color: #ffffff;
+	font-size: 20px;
+	background-color: #5cb85c;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	border: 0;
+}
+
+.bookmark-btn:hover {
+	background: #05b93c;
+	text-decoration: none;
+}
+
+.bookmark-btn:disabled {
+	cursor: not-allowed;
+}
+
+/* Bookmark Page */
+.bookmark {
+	margin-top: 10px;
+}
+
+.all-bookmarks {
+	margin-left: 20px;
+}
+
+.bookmark-name {
+	color: #797272;
+}
+
+.bookmark-delete-bookmark {
+	color: #d9534f;
+	font-size: 150%;
+}
+
+.bookmarks-table {
+	margin-left: 0;
+	padding: 8px;
+	width: 500px;
+	cursor: pointer;
+}
+
+.delete-all {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	-webkit-border-radius: 7;
+	-moz-border-radius: 7;
+	border-radius: 7px;
+	font-family: sans-serif;
+	color: #ffffff;
+	font-size: 15px;
+	background-color: #d9534f;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	border: 0;
+}
+
+.delete-all:disabled {
+	cursor: not-allowed;
+}
+
+.bookmark-yes-confirm {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	-webkit-border-radius: 7;
+	-moz-border-radius: 7;
+	border-radius: 7px;
+	font-family: sans-serif;
+	color: #ffffff;
+	font-size: 15px;
+	background-color: #5cb85c;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	border: 0;
+	margin-right: 12px;
+}
+
+.bookmark-no-confirm {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	-webkit-border-radius: 7;
+	-moz-border-radius: 7;
+	border-radius: 7px;
+	font-family: sans-serif;
+	color: #ffffff;
+	font-size: 15px;
+	background-color: #d9534f;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	border: 0;
+}
+
+.error-box {
+	margin-top: 20px; 
+	margin-left: 20px;
+	width: 900px;
+}
+
+.error-message {
+	text-align: center;
+	color: #f0b840;
+}
